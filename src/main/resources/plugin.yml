@@ -1,0 +1,16 @@
+name: OpenWorld
+version: '1.0'
+main: my.dementerqq.openWorld.OpenWorld
+api-version: '1.16'
+
+commands:
+  openworld:
+    description: Control OpenWorld
+    usage: /openworld <reload|open|close> <world>
+    permission: openworld.admin
+    permission-message: "&8[&cOpenWorld&8] &7У вас нету права использовать данную команду!"
+
+permissions:
+  openworld.admin:
+    description: Разрешает использовать команду /openworld
+    default: op
